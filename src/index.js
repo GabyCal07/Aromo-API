@@ -3,7 +3,7 @@ require('./db/mongoose');
 const express = require('express');
 //const cors = require('cors');
 const app = express();
-const Grupo = require('./model/grupo');
+const Grupo = require('./model/grupos');
 const port = process.env.PORT || 3001;
 
 app.use(express.json()); 

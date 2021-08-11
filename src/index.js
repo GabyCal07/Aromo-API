@@ -8,6 +8,10 @@ const port = process.env.PORT || 3001;
 
 app.use(express.json()); 
 
+app.get('/', (req, res) => {
+    res.send("API Aromo");    
+});  
+
 // Create: Crear grupo
 app.post('/grupo',(req, res) => {
      

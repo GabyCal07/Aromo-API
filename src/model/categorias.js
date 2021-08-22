@@ -1,22 +1,18 @@
 const mongoose = require('mongoose');
 
-const Grupo = mongoose.model('Grupo', {
+const Categoria = mongoose.model('Categoria', {
     name : {
         type: String,
         required: true        
-    },
-    description: {
-        type: String,
-        required: true
     },
     img: { 
         type: String,
         required: true
     },
-    page: { 
+    group: {
         type: String,
         required: true
     }
 });
 
-module.exports = Grupo;   
+module.exports = Categoria;

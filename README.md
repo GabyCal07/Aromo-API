@@ -1,2 +1,2 @@
 # Aromo-API
-API para uso en la web de los vecinos del Aromo
+REST API para uso en la web de los vecinos del Aromo
